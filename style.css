@@ -1,0 +1,198 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Carrois Gothic", sans-serif;
+    font-size: 14px;
+}
+
+body {
+    background-color: #14120B;
+    color: #EDECEC;
+    font-family: "Carrois Gothic", sans-serif;
+}
+
+body::selection {
+    background-color: #34322C;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    padding: 10px;
+    top: 0;
+    width: 85%;
+    background-color: #14120B;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.logo p {
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.pages {
+    display: flex;
+    list-style: none;
+    align-items: center;
+    gap: 30px;
+}
+
+.pages a {
+    text-decoration: none;
+    color: #EDECEC;
+}
+
+.pages li {
+    font-weight: 400;
+}
+
+.pages li:hover {
+    color: #B6B5B3;
+}
+
+.signin {
+    background-color: #14120B;
+    color: #EDECEC;
+    border: 1px solid #44433E;
+    padding: 6px 12px;
+    border-radius: 15px;
+    cursor: pointer;
+    font-weight: 400;
+}
+
+.signin:hover {
+    background-color: #1B1913;
+}
+
+.download {
+    border: none;
+    padding: 6px 12px;
+    border-radius: 15px;
+    cursor: pointer;
+    font-weight: 400;
+}
+
+.download:hover {
+    background-color: #D7D6D5;
+}
+
+main
+
+.hero-first {
+    width: 85%;
+    margin: 18vh auto auto auto;
+}
+
+.hero-first h1 {
+    font-size: 26px;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+
+.hero-first button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 8px 16px;
+    border-radius: 20px;
+    gap: 5px;
+    cursor: pointer;
+}
+.hero-first button:hover {
+    background-color: #D7D6D5;
+}
+
+.hero-first button p {
+    font-size: 16px;
+}
+
+.hero-first button span {
+    padding-top: 5px;
+}
+
+.hero-second {
+    width: 85%;
+    margin: 8vh auto;
+}
+
+.hero-second img {
+    border-radius: 5px;
+    width: 100%;
+}
+
+.hero-third {
+    width: 85%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.hero-third p {
+    margin-bottom: 20px;
+}
+
+.cards {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.card {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #1B1913;
+    width: 20%;
+    height: 100px;
+}
+
+.hero-fourth {
+    width: 85%;
+    margin: 12vh auto;
+    background-color: #1D1B15;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+}
+
+.hero-fourth-text h3 {
+    font-size: 22px;
+    font-weight: 400;
+}
+
+.hero-fourth-text p {
+    font-size: 22px;
+    line-height: 29px;
+    font-weight: 400;
+    color: #989794
+}
+
+.hero-fourth-text a {
+    font-size: 16px;
+    text-decoration: none;
+    color: #f54e00;
+    font-weight: 400;
+    
+}
+
+.hero-fourth-text a:hover {
+    color: #BF4105;
+    
+}
+
+.hero-fourth img {
+    border-radius: 5px;
+}
